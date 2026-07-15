@@ -8,16 +8,16 @@ import {
 } from 'lucide-react';
 
 const jobsList = [
-  { id: 1, title: 'Assistant Ressources Humaines', company: 'Rawbank', location: 'Kinshasa', type: 'Rémunéré', time: 'Temps plein', duration: '3 mois', domain: 'rh', color: 'bg-purple-100', textCol: 'text-purple-700', initial: 'R' },
-  { id: 2, title: 'Stagiaire Analyste Financier', company: 'ARSP', location: 'Kinshasa', type: 'Non rémunéré', time: 'Temps partiel', duration: '6 mois', domain: 'finance', color: 'bg-blue-100', textCol: 'text-blue-700', initial: 'A' },
-  { id: 3, title: 'Assistant Marketing Digital', company: 'Vodacom RDC', location: 'Kinshasa', type: 'Rémunéré', time: 'Temps plein', duration: '3 mois', domain: 'marketing', color: 'bg-red-100', textCol: 'text-red-700', initial: 'V' },
-  { id: 4, title: 'Développeur Web Junior', company: 'Illicocash', location: 'Kinshasa', type: 'Rémunéré', time: 'Temps plein', duration: '6 mois', domain: 'it', color: 'bg-yellow-100', textCol: 'text-yellow-700', initial: 'I' },
-  { id: 5, title: 'Assistant Logistique', company: 'UNICEF', location: 'Goma', type: 'Indemnité', time: 'Temps plein', duration: '3 mois', domain: 'logistique', color: 'bg-cyan-100', textCol: 'text-cyan-700', initial: 'U' },
-  { id: 6, title: 'Stagiaire Comptable', company: 'KPMG RDC', location: 'Lubumbashi', type: 'Rémunéré', time: 'Temps plein', duration: '6 mois', domain: 'finance', color: 'bg-indigo-100', textCol: 'text-indigo-700', initial: 'K' },
-  { id: 7, title: 'Assistant Informatique (Réseaux)', company: 'Orange', location: 'Kinshasa', type: 'Rémunéré', time: 'Temps plein', duration: '3 mois', domain: 'it', color: 'bg-orange-100', textCol: 'text-orange-700', initial: 'O' },
-  { id: 8, title: 'Community Manager', company: 'Bracongo', location: 'Kinshasa', type: 'Indemnité', time: 'Temps partiel', duration: '3 mois', domain: 'marketing', color: 'bg-amber-100', textCol: 'text-amber-700', initial: 'B' },
-  { id: 9, title: 'Gestionnaire de Paie', company: 'TMB', location: 'Lubumbashi', type: 'Rémunéré', time: 'Temps plein', duration: '6 mois', domain: 'rh', color: 'bg-emerald-100', textCol: 'text-emerald-700', initial: 'T' },
-  { id: 10, title: 'Data Analyst Stagiaire', company: 'Airtel', location: 'Goma', type: 'Rémunéré', time: 'Temps plein', duration: '6 mois', domain: 'it', color: 'bg-rose-100', textCol: 'text-rose-700', initial: 'A' },
+  { id: 1, title: 'Assistant Ressources Humaines', company: 'Rawbank', location: 'Kinshasa', type: 'Rémunéré', time: 'Temps plein', duration: '3 mois', domain: 'rh', color: 'bg-purple-100', textCol: 'text-purple-700', logo: 'raw.webp', },
+  { id: 2, title: 'Stagiaire Analyste Financier', company: 'ARSP', location: 'Kinshasa', type: 'Non rémunéré', time: 'Temps partiel', duration: '6 mois', domain: 'finance', color: 'bg-blue-100', textCol: 'text-blue-700', logo: 'arsp.webp', initial: 'A' },
+  { id: 3, title: 'Assistant Marketing Digital', company: 'Vodacom RDC', location: 'Kinshasa', type: 'Rémunéré', time: 'Temps plein', duration: '3 mois', domain: 'marketing', color: 'bg-red-100', textCol: 'text-red-700', logo: 'voda.webp', initial: 'V' },
+  { id: 4, title: 'Développeur Web Junior', company: 'Illicocash', location: 'Kinshasa', type: 'Rémunéré', time: 'Temps plein', duration: '6 mois', domain: 'it', color: 'bg-yellow-100', textCol: 'text-yellow-700', logo: 'cash.webp', initial: 'I' },
+  { id: 5, title: 'Assistant Logistique', company: 'UNICEF', location: 'Goma', type: 'Indemnité', time: 'Temps plein', duration: '3 mois', domain: 'logistique', color: 'bg-cyan-100', textCol: 'text-cyan-700', logo: 'unicef.png', initial: 'U' },
+  { id: 6, title: 'Stagiaire Comptable', company: 'KPMG RDC', location: 'Lubumbashi', type: 'Rémunéré', time: 'Temps plein', duration: '6 mois', domain: 'finance', color: 'bg-indigo-100', textCol: 'text-indigo-700', logo: 'kpmg.webp', initial: 'K' },
+  { id: 7, title: 'Assistant Informatique (Réseaux)', company: 'Orange', location: 'Kinshasa', type: 'Rémunéré', time: 'Temps plein', duration: '3 mois', domain: 'it', color: 'bg-orange-100', textCol: 'text-orange-700', logo: 'orange.png', initial: 'O' },
+  { id: 8, title: 'Community Manager', company: 'Bracongo', location: 'Kinshasa', type: 'Indemnité', time: 'Temps partiel', duration: '3 mois', domain: 'marketing', color: 'bg-amber-100', textCol: 'text-amber-700', logo: 'bracongo.webp', initial: 'B' },
+  { id: 9, title: 'Gestionnaire de Paie', company: 'TMB', location: 'Lubumbashi', type: 'Rémunéré', time: 'Temps plein', duration: '6 mois', domain: 'rh', color: 'bg-emerald-100', textCol: 'text-emerald-700', logo: 'tmb.webp', initial: 'T' },
+  { id: 10, title: 'Data Analyst Stagiaire', company: 'Airtel', location: 'Goma', type: 'Rémunéré', time: 'Temps plein', duration: '6 mois', domain: 'it', color: 'bg-rose-100', textCol: 'text-rose-700', logo: 'airtel.png', initial: 'A' },
 ];
 
 const candidatesList = [
@@ -233,7 +233,7 @@ const HomeView = ({ navigateTo }) => (
             
             {/* Main Image */}
             <img 
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" 
+              src="hero.jpg" 
               alt="Professionnelle Africaine" 
               className="relative z-10 w-full h-[500px] object-cover rounded-[2rem] shadow-2xl border-4 border-white/20 transform hover:scale-[1.02] transition-transform duration-500"
             />
@@ -565,7 +565,21 @@ const JobsListView = ({ navigateTo, notify }) => {
                   <div key={job.id} className="bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300 flex flex-col">
                     <div className="flex justify-between items-start mb-4">
                       <div className="flex gap-4">
-                        <div className={`w-14 h-14 ${job.color} ${job.textCol} rounded-xl flex items-center justify-center font-bold text-2xl flex-shrink-0`}>{job.initial}</div>
+                        
+                        {/* --- DÉBUT DU BLOC LOGO MODIFIÉ --- */}
+                        {job.logo ? (
+                          <img 
+                            src={job.logo} 
+                            alt={`Logo ${job.company}`} 
+                            className="w-14 h-14 rounded-xl object-contain bg-white border border-gray-200 flex-shrink-0 p-1" 
+                          />
+                        ) : (
+                          <div className={`w-14 h-14 ${job.color} ${job.textCol} rounded-xl flex items-center justify-center font-bold text-2xl flex-shrink-0`}>
+                            {job.initial}
+                          </div>
+                        )}
+                        {/* --- FIN DU BLOC LOGO --- */}
+
                         <div>
                           <h3 className="font-bold text-lg text-[#1a365d] mb-1 leading-tight">{job.title}</h3>
                           <div className="flex items-center gap-2 text-sm text-gray-500">
@@ -712,7 +726,21 @@ const StudentDashboard = ({ navigateTo, notify }) => {
                 recJobs.map(job => (
                   <div key={job.id} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-[#4caf50] transition-colors shadow-sm flex flex-col md:flex-row justify-between md:items-center gap-4">
                     <div className="flex items-center gap-4">
-                      <div className={`w-12 h-12 ${job.color} ${job.textCol} rounded-xl flex items-center justify-center font-bold text-xl flex-shrink-0`}>{job.initial}</div>
+                      
+                      {/* --- DÉBUT DU BLOC LOGO ENTREPRISE MODIFIÉ --- */}
+                      {job.logo ? (
+                        <img 
+                          src={job.logo.startsWith('/') ? job.logo : `/${job.logo}`}
+                          alt={`Logo ${job.company}`} 
+                          className="w-12 h-12 rounded-xl object-contain bg-white border border-gray-200 flex-shrink-0 p-1" 
+                        />
+                      ) : (
+                        <div className={`w-12 h-12 ${job.color} ${job.textCol} rounded-xl flex items-center justify-center font-bold text-xl flex-shrink-0`}>
+                          {job.initial}
+                        </div>
+                      )}
+                      {/* --- FIN DU BLOC LOGO --- */}
+
                       <div>
                         <h4 className="font-bold text-slate-800 text-lg leading-tight">{job.title}</h4>
                         <p className="text-sm text-gray-500 font-medium">{job.company} • {job.location}</p>
@@ -809,7 +837,7 @@ const EnterpriseDashboard = ({ navigateTo, notify }) => {
               </div>
               <div className="overflow-x-auto">
                 <table className="w-full text-left text-sm whitespace-nowrap">
-                  <thead class="bg-gray-50 text-gray-500">
+                  <thead className="bg-gray-50 text-gray-500">
                     <tr>
                       <th className="px-6 py-4 font-semibold">Candidat</th>
                       <th className="px-6 py-4 font-semibold">Université</th>
@@ -826,7 +854,21 @@ const EnterpriseDashboard = ({ navigateTo, notify }) => {
                         <tr key={c.id} className="hover:bg-blue-50/50 transition-colors">
                           <td className="px-6 py-4">
                             <div className="flex items-center gap-3">
-                              <div className={`w-9 h-9 rounded-full ${c.color} flex items-center justify-center font-bold`}>{c.initial}</div>
+                              
+                              {/* --- DÉBUT DU BLOC PHOTO/LOGO MODIFIÉ --- */}
+                              {c.logo ? (
+                                <img 
+                                  src={c.logo} 
+                                  alt={`Profil de ${c.name}`} 
+                                  className="w-9 h-9 rounded-full object-cover bg-white border border-gray-200" 
+                                />
+                              ) : (
+                                <div className={`w-9 h-9 rounded-full ${c.color} flex items-center justify-center font-bold`}>
+                                  {c.initial}
+                                </div>
+                              )}
+                              {/* --- FIN DU BLOC PHOTO/LOGO --- */}
+
                               <span className="font-bold text-slate-800">{c.name}</span>
                             </div>
                           </td>
